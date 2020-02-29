@@ -1,0 +1,85 @@
+> https://code.visualstudio.com/
+> https://nodejs.org/en/
+> https://github.com/
+> https://github.com/Aakashdeveloper
+
+//Javascript
+
+
+//npm
+Node package Manager
+
+//xml yml json
+//package.json
+JSON => Javascript Object Notation
+[
+    {
+        name:"abc",
+        class:1,
+    },
+    {
+        name:"xyz",
+        class:1,
+    }
+]
+
+//package.json
+> First file to run
+> Contain description
+> Packages
+> Version
+> Start, test, build Script
+
+//setup of React
+
+//JSX
+
+/************************
+Step to create package.json
+************************/
+**must install nodejs
+> Open your cmd/Terminal
+> Navigate to the folder where you want to generate
+> type 'npm init'
+> Answer all question
+> type 'yes'
+
+/************************
+How to install packages
+************************/
+> Global => Local to the system
+(Create,Build,Test)
+
+> Local => Local to folder
+
+/******Local package******/
+> Open your cmd/Terminal
+> Navigate to the folder where you want to generate
+> npm i react/npm install react/npm i react --save -dev
+
+
+/************************
+Step to create React App
+************************/
+Win
+> run your cmd as admin
+> npm i -g create-react-app/npx i -g create-react-app
+> Open your cmd
+> Navigate to the folder where you want to generate
+> create-react-app <appname>
+> cd appname
+> npm Start
+> localhost:3000
+
+Mac/Linux
+
+> run your terminal
+> sudo npm i -g create-react-app/sudo npx i -g create-react-app
+> Open your cmd
+> Navigate to the folder where you want to generate
+> create-react-app <appname>
+> cd appname
+> npm Start
+> localhost:3000
+
+
