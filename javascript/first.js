@@ -126,3 +126,21 @@ var b ="my age is "+a
 var c = `my age is ${a}`
 
 > codecademy.com/catalog/language/javascript
+
+
+class geo{
+    constructor(lat,long){
+        this.lat = lat;
+        this.long = long; 
+    }
+}
+
+class language1 extends geo{
+    constructor(name,country,lat,long){
+        super(lat,long)
+        this.name = name;
+        this.country = country; 
+    }
+}
+
+var english = new language1('English','England',45.55,67.77)

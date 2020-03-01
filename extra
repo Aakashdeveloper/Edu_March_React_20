@@ -57,13 +57,25 @@ How to install packages
 > Navigate to the folder where you want to generate
 > npm i react/npm install react/npm i react --save -dev
 
+/******Gloabl package******/
+#Win
+> run your cmd as admin
+> npm i -g @aakashdeveloper/create-node-app
+
+#Mac
+> run your terminal
+> sudo npm i -g @aakashdeveloper/create-node-app
+
+**Global depedency will add to package.json
+**To install global admin permission
+
 
 /************************
 Step to create React App
 ************************/
 Win
 > run your cmd as admin
-> npm i -g create-react-app/npx i -g create-react-app
+> npm i -g create-react-app
 > Open your cmd
 > Navigate to the folder where you want to generate
 > create-react-app <appname>
@@ -74,12 +86,61 @@ Win
 Mac/Linux
 
 > run your terminal
-> sudo npm i -g create-react-app/sudo npx i -g create-react-app
+> sudo npm i -g create-react-app
 > Open your cmd
 > Navigate to the folder where you want to generate
 > create-react-app <appname>
 > cd appname
 > npm Start
 > localhost:3000
+
+npx create-react-app appname
+
+
+
+//Generate react
+//Walk through of folder
+//component addiing css
+
+////Component in React App////
+Functional               | ClassBase
+---------------------------------------------------
+Dumb Component           | Logical Component
+Display Component        |
+light in weight          | Heavy as compare of functional
+Cannot maintain state    | Can maintain state
+normal function          | Class method
+
+
+
+STATE & Props
+
+State = Local variable in component
+        (any data declare or data interaction)
+Props = Use to transfer the data
+
+ComponentA            ====>         ComponentB
+State{                Props         State{}
+    title:'React'
+}
+
+
+ClassComponentA       =====>      FunctionalComponentB
+>We will call API     Props       > Will recive props with data
+>Data of API we will              > Than we will display
+ save in state
+
+
+tagname
+class
+id
+
+//Display Data in component
+//Pass Data from one comp to other
+//Search bar
+//Routing
+
+// Filter, Map & .bind in Javascript
+// cssbootstrap
 
 
