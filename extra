@@ -135,12 +135,79 @@ tagname
 class
 id
 
-//Display Data in component
-//Pass Data from one comp to other
-//Search bar
-//Routing
-
 // Filter, Map & .bind in Javascript
 // cssbootstrap
 
+//
+map => is use to iterate or value
+filter => to filterr some specific value 
 
+var a = [0,1,2,0,3]
+a.map((data) => { return data*2})
+[0,2,4,0,6]
+
+a.filter((data) => { return data>2})
+[1,2,3]
+
+filter only those value for which condition is true
+
+true == 1
+false == 0
+
+npm i react-lazyload
+
+var = ["London","Newyork","delhi"]
+var city= ["London","Newyork","delhi"]
+undefined
+city.indexOf('London')
+0
+city.indexOf('delhi')
+2
+city.indexOf('Helsinki')
+-1
+city.indexOf('Boston')
+-1
+
+
+[0,1,1,2]
+3
+4
+
+
+?
+
+var a = 10
+a>10?"hi":"bie"
+
+
+if(a.length>0){
+
+}
+
+if(a){
+
+}
+
+
+parent=> child (Normal props)
+child => Parent(callback)
+
+
+add(showresult())
+
+
+add=(a,b)=>{return a+b}
+
+add(1,2)
+
+///*Routing*////
+npm i react-router-dom
+
+//////////
+mockapi
+
+json-server
+
+npm i -g json-server
+
+json-server --watch db.json --port 8900

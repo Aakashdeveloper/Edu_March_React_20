@@ -3,14 +3,22 @@ import './Header.css';
 
 //Class Component
 class Header extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
 
         this.state={
-            title:'REACT APP'
+            title:'REACT APP',
+            keyword:'User Text Here'
         }
     }
 
+    //Event Binding
+    inputChanges(event){
+        //console.log(event.target.value)
+        this.setState({keyword:event.target.value?event.target.value:'USER TEXT HERE'})
+        this.props.userText(event.target.value)
+
+    }
 
     render(){
         return(
@@ -19,7 +27,8 @@ class Header extends Component{
                      {this.state.title}
                  </div>
                 <center>
-                    <input/>
+                    <input onChange={this.inputChanges.bind(this)}/>
+                    <p>{this.state.keyword}</p>
                 </center>
                 <hr/>
             </header>
