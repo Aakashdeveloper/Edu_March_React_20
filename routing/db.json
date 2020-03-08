@@ -1,27 +1,52 @@
 {
-    "posts":
-    [
-        {
-            "id": 1,
-            "name": "JavaScript",
-            "img":""
-        },
-        {
-            "id": 2,
-            "name": "React",
-            "img":""
-        },
-        {
-            "id": 3,
-            "name": "Node",
-            "img":""
-        }
-        ,
-        {
-            "id": 4,
-            "name": "Angulae",
-            "img":""
-        }
-
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/bmBXzxJ/javascript.jpg"
+    },
+    {
+      "id": 2,
+      "name": "React",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/jMs4RLJ/golang.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Node",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/kDymKQ9/node.png"
+    },
+    {
+      "id": 4,
+      "name": "Angular",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/bmBXzxJ/javascript.jpg"
+    },
+    {
+      "id": 5,
+      "name": "GoLang",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/jMs4RLJ/golang.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Python",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/kDymKQ9/node.png"
+    },
+    {
+      "id": 7,
+      "name": "Redux",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/SPCLTHb/redux.png"
+    },
+    {
+      "id": 1305,
+      "name": "Earlang",
+      "details": "lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. it has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. it was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with desktop publishing software like aldus pagemaker including versions of lorem ipsum",
+      "img": "https://i.ibb.co/2KmKvXT/erlang.png"
+    }
+  ]
 }

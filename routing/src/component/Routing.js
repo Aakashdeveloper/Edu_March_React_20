@@ -4,6 +4,9 @@ import {BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Post from './Post';
 import Profile from './Profile';
+import PostDetails from './PostDetails';
+import FormsComponent from './FormsComponent';
+import LifeCycle from './lifecycle';
 
 const Routing = () => {
 
@@ -25,14 +28,19 @@ return(
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/post">Posts</Link></li>
                         <li><Link to="/profile">Profile</Link></li>
+                        <li><Link to="/forms">Forms</Link></li>
+                        <li><Link to="/life">LifeCycle</Link></li>
                     </ul>
                     </div>
                 </div>
                 </nav>
             </header>
             <Route exact path="/" component={Home}></Route>
-            <Route path="/post" component={Post}></Route>
+            <Route exact path="/post" component={Post}></Route>
+            <Route path="/post/:topic" component={PostDetails}></Route>
             <Route path="/profile" component={Profile}></Route>
+            <Route path="/forms" component={FormsComponent}></Route>
+            <Route path="/life" component={LifeCycle}></Route>
     
     </BrowserRouter>
     )

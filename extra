@@ -211,3 +211,38 @@ json-server
 npm i -g json-server
 
 json-server --watch db.json --port 8900
+
+
+Math.random()
+0.7472113037675367
+Math.random()*10000
+4012.0160270744186
+Math.random()*100000
+76818.99233728755
+Math.floor(Math.random()*100000)
+19020
+Math.floor(Math.random()*100000)
+80801
+Math.floor(Math.random()*100000)
+39760
+Math.floor(Math.random()*100000)
+43293
+Math.floor(Math.random()*100000)
+24383
+
+
+Math.floor(Math.random()*(max-min))+min
+
+Math.floor(Math.random()*(10-1))+1
+
+
+/*
+Will mount and did mount call only at the time of
+loading the component
+on every state change on render will get call
+*/
+
+Pure component
+
+/*git*/
+/*Redux*/
