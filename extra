@@ -246,3 +246,56 @@ Pure component
 
 /*git*/
 /*Redux*/
+
+code Versiong
+
+//First Time///
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/myapp.git
+git push -u origin master
+
+//All Other Times//
+git add .
+git commit -m "first commit"
+git push
+
+git checkout -b newfeature  branchname/master
+
+git clone -b branchname https://github.com/Aakashdeveloper/myapp.git
+
+git pull 
+
+
+/****************
+    Redux
+*******************
+redux react-redux
+
+comoponent=> Display(ClassBase/functional)
+container=> Talk to redux(class base)
+action => Api Calling
+Reducers => to manage state
+Store => To save state
+
+
+Reducer => Main Reducer (Combine all reducers)
+           Topic reducer
+
+           /product   (product reducer)
+           /movies     (movies reducer)
+
+
+mapStateToProps(this will recive the state)    <====
+mapDispatchToprops(this will dispatch action)  ====>
+
+
+get
+post
+patch
+
+put vs patch
+
+//Next redux app//
+//Hooks//
