@@ -299,3 +299,5 @@ put vs patch
 
 //Next redux app//
 //Hooks//
+
+npm i redux react-redux redux-promise react-slick
