@@ -6,6 +6,7 @@ const Header =  () => {
         <header>
             <div>
                 <Link to="/">News Reduxs</Link>
+                <Link to="/food">Food</Link>
             </div>
         </header>
     )

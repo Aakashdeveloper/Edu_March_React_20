@@ -37,6 +37,10 @@ const ArticleNews = (props) => {
                     </Link>
                 )
             })
+        }else{
+            <div>
+                ....loading
+            </div>
         }
     }
 

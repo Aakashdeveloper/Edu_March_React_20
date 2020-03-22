@@ -20,6 +20,7 @@ class Home extends Component{
     render(){
         return(
             <Fragment>
+
                 <LatestDisplay ldata={this.props.myarticle.latestdata}/>
                 <ArticleDisplay articleArray={this.props.myarticle.articledata}/>
                 <GalleryDisplay galleryArray={this.props.mygallery.gallerydata}/>
