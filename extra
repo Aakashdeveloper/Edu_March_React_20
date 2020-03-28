@@ -337,9 +337,9 @@ data.next()
 react
 redux
 saga
--------------
 reacthooks
 graphql
+-------------
 deployment/test
 react-native
 --------------
@@ -348,3 +348,13 @@ login-logout
 https://www.youtube.com/channel/UC26NMdgQBbY6wunk_vZwQZQ/videos?view_as=subscriber
 
 
+npm i graphql apollo-boost react-apollo
+
+> inetpub  => iis
+> xamp     => www 
+> tomact    => /var/www
+
+
+docker build . -t edumarch
+docker image ls
+docker run -p 8006:3000 edumarch
