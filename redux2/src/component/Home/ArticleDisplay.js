@@ -37,10 +37,13 @@ const ArticleNews = (props) => {
                     </Link>
                 )
             })
-        }else{
-            <div>
-                ....loading
-            </div>
+        }
+        if(!articleArray){
+            return(
+                <div>
+                    <img src="./loading.gif"/>
+                </div>
+            )
         }
     }
 

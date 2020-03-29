@@ -1,0 +1,15 @@
+version: '3.0'
+services:
+  webserver:
+    image: nodeapp
+    container_name: wp_web
+    ports:
+      - 8080:80
+    links:
+      - frontend
+    environment:
+      DB_PASSWORD: 6zcznAEjLWp79P
+  frontend:
+    image: edumarch
+    ports:
+      - 8080:80

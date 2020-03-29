@@ -25,6 +25,13 @@ const showGallery = ({galleryArray}) =>{
                 })}
             </Slider>
         )
+    } 
+    if(!galleryArray){
+        return(
+            <div>
+                <img src="./loading.gif"/>
+            </div>
+        )
     }
 }
 

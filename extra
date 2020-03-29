@@ -339,8 +339,8 @@ redux
 saga
 reacthooks
 graphql
--------------
 deployment/test
+-------------
 react-native
 --------------
 login-logout
@@ -358,3 +358,68 @@ npm i graphql apollo-boost react-apollo
 docker build . -t edumarch
 docker image ls
 docker run -p 8006:3000 edumarch
+
+//Nginx
+> localhost:9800
+> https://abc.com
+
+In the nginx.conf
+
+server {
+        listen       8081;
+        server_name  localhost;
+
+        location / {
+	    root   /var/www/react-app;
+            index  index.html index.htm;
+        }
+    }
+
+server {
+    #    listen       443 ssl;
+    #    server_name  localhost;
+
+    #    ssl_certificate      cert.pem;
+    #    ssl_certificate_key  cert.key;
+
+    #    ssl_session_cache    shared:SSL:1m;
+    #    ssl_session_timeout  5m;
+
+    #    ssl_ciphers  HIGH:!aNULL:!MD5;
+    #    ssl_prefer_server_ciphers  on;
+
+    #    location / {
+    #        root   html;
+    #        index  index.html index.htm;
+    #    }
+    #}
+
+//////////////////////////////////////
+
+npm i enzyme enzyme-adapter-react-16 react-test-renderer
+
+
+/////////////////////////////////////
+npm i -g create-react-native-app
+create-react-native-app mobileappp
+
+
+>>>>
+/******GetUser*****/
+(GET)> http://localhost:5000/api/auth/users
+
+/******Register*****/
+(POST)> http://localhost:5000/api/auth/register
+(body) => {"name":"Aakash", "email":"aa@gmail.com","password":"12345678","role":"admin"}
+
+
+/******Login*****/
+(POST) => http://localhost:5000/api/auth/login
+(body)  => {"email":"aa@gmail.com","password":"12345678"}
+(response)=> {auth:true,}
+
+/******UserInfo*****/
+(GET) => http://localhost:5000/api/auth/userinfo
+(Header) => {'x-access-token':'token value from login'}
+
+localstorage

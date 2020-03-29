@@ -19,6 +19,13 @@ const LatestDisplay = (props) => {
                 )
             })
         }
+        if(!ldata){
+            return(
+                <div>
+                    <img src="./loading.gif"/>
+                </div>
+            )
+        }
 
     }
 

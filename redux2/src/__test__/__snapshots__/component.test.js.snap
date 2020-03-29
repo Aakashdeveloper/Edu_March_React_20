@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnapShot Test Test Footer Component  1`] = `
+<footer>
+  <div>
+    <center>
+      ©Edureka
+    </center>
+    <p />
+  </div>
+</footer>
+`;
